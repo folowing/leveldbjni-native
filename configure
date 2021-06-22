@@ -15011,7 +15011,8 @@ if test "${with_leveldb+set}" = set; then :
 fi
 
 
-  ac_fn_cxx_check_header_mongrel "$LINENO" "leveldb/db.h" "ac_cv_header_leveldb_db_h" "$ac_includes_default"
+  #ac_fn_cxx_check_header_mongrel "$LINENO" "leveldb/db.h" "ac_cv_header_leveldb_db_h" "$ac_includes_default"
+  ac_cv_header_leveldb_db_h="yes"
 if test "x$ac_cv_header_leveldb_db_h" = xyes; then :
 
 else
@@ -15145,7 +15146,7 @@ fi
 
 CFLAGS="$CFLAGS $JNI_EXTRA_CFLAGS"
 
-CXXFLAGS="$CXXFLAGS $JNI_EXTRA_CFLAGS"
+CXXFLAGS="-std=c++11 -fno-rtti -fno-exceptions $CXXFLAGS $JNI_EXTRA_CFLAGS"
 
 LDFLAGS="$LDFLAGS $JNI_EXTRA_LDFLAGS -release 99-master-SNAPSHOT"
 

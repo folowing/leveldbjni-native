@@ -1,4 +1,5 @@
-Origin file https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.8/leveldbjni-1.8-native-src.zip
+Original file is from 
+* https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.8/leveldbjni-1.8-native-src.zip
 
 
 Building on Unix/Linux/OS X
