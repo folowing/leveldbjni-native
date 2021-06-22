@@ -15005,7 +15005,7 @@ if test "${with_leveldb+set}" = set; then :
     CFLAGS="$CFLAGS -I${withval}/include"
     CXXFLAGS="$CXXFLAGS -I${withval}/include"
 
-    LDFLAGS="$LDFLAGS -lleveldb -L${withval}"
+    LDFLAGS="$LDFLAGS -lleveldb -L${withval}/lib"
 
 
 fi
